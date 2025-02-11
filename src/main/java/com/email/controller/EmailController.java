@@ -16,7 +16,7 @@ public class EmailController {
     @Autowired
     private EmailService emailService;
 
-    @GetMapping("/welcome")
+    @GetMapping("/")
     public String justWelcome(){
 
         return "hello this is my email api";
